@@ -11,3 +11,10 @@ Thumbs.db
 
 # Dependencies (statik sitede gerekmez; ileride araç eklersen diye)
 node_modules/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
